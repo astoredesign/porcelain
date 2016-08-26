@@ -1,23 +1,35 @@
-﻿<div class="header">
+﻿@model Nop.Web.Models.Common.Header
+<div id="topDiv" class="header">
     @Html.Widget("header")
-    <div class="header-upper">
+
+    <div id="topDiv1">
         <div class="header-selectors-wrapper">
             @Html.Action("TaxTypeSelector", "Common")
-            @Html.Action("CurrencySelector", "Common")
-            @Html.Action("LanguageSelector", "Common")
+            @*@Html.Action("CurrencySelector", "Common")*@
+            @*@Html.Action("LanguageSelector", "Common")*@
             @Html.Widget("header_selectors")
         </div>
-        <div class="header-links-wrapper">
-            @Html.Action("HeaderLinks", "Common")
-            @Html.Action("FlyoutShoppingCart", "ShoppingCart")
+        <div class="header-upper">
+            <div class="header-links-wrapper">
+                @Html.Action("HeaderLinks", "Common")
+                @Html.Action("FlyoutShoppingCart", "ShoppingCart")
+            </div>
         </div>
+        @*@if (!string.IsNullOrEmpty(Model.HeaderPhone))
+        {
+            <div id="topText"><div id="tnText">@Model.HeaderPhone</div></div>
+        }*@
+
+        <div id="logo"><a href="index.html"><img src="http://site.1-800-porcelain.com/i1/logo.jpg" alt="1-800-porcelain.com" width="419" height="82"><br></a></div>
+
     </div>
-    <div class="header-lower">
-        <div class="header-logo">
-            @Html.Action("Logo", "Common")
-        </div>
-        <div class="search-box store-search-box">
-            @Html.Action("SearchBox", "Catalog")
-        </div>
-    </div>
+    <!--/ topDiv1-->
+    @*<div class="header-lower">
+            <div class="header-logo">
+                @Html.Action("Logo", "Common")
+            </div>
+            <div class="search-box store-search-box">
+                @Html.Action("SearchBox", "Catalog")
+            </div>
+        </div>*@
 </div>

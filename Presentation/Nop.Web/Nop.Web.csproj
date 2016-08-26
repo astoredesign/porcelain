@@ -340,6 +340,7 @@
     <Compile Include="Models\Common\FaviconModel.cs" />
     <Compile Include="Models\Common\LogoModel.cs" />
     <Compile Include="Models\Common\PagerModel.cs" />
+    <Compile Include="Models\Common\Header.cs" />
     <Compile Include="Models\Common\SocialModel.cs" />
     <Compile Include="Models\Common\StoreThemeModel.cs" />
     <Compile Include="Models\Common\LanguageSelectorModel.cs" />

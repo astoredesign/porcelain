@@ -480,6 +480,18 @@ namespace Nop.Web.Controllers
             return PartialView(model);
         }
 
+        //header
+        [ChildActionOnly]
+        public ActionResult Header()
+        {
+            //model
+            var model = new Header
+            {
+                HeaderPhone = _storeInformationSettings.HeaderPhone,
+            };
+
+            return PartialView(model);
+        }
 
         //footer
         [ChildActionOnly]
