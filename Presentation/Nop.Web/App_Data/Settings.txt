@@ -1,2 +1,2 @@
-DataProvider: 
-DataConnectionString: 
+DataProvider: sqlce
+DataConnectionString: Data Source=|DataDirectory|\Nop.Db.sdf;Persist Security Info=False
