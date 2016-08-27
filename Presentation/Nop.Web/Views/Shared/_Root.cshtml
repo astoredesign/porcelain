@@ -12,7 +12,7 @@
         <div id="wrapIn1">
             <div class="master-wrapper-page">
                 @Html.Action("AdminHeaderLinks", "Common")
-                @Html.Partial("Header")
+                @Html.Action("Header", "Common")
                 <script type="text/javascript">
                     AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
                 </script>

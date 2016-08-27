@@ -59,5 +59,10 @@ namespace Nop.Core.Domain.Common
         /// Gets or sets ignore words (phrases) to be ignored when logging errors/messages
         /// </summary>
         public List<string> IgnoreLogWordlist { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value of header phone
+        /// </summary>
+        public string HeaderPhone { get; set; }
     }
 }

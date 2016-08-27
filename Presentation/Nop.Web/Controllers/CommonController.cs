@@ -487,7 +487,7 @@ namespace Nop.Web.Controllers
             //model
             var model = new Header
             {
-                HeaderPhone = _storeInformationSettings.HeaderPhone,
+                HeaderPhone = _commonSettings.HeaderPhone,
             };
 
             return PartialView(model);

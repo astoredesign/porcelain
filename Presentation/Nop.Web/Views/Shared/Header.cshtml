@@ -1,7 +1,6 @@
 ﻿@model Nop.Web.Models.Common.Header
+@Html.Widget("header")
 <div id="topDiv" class="header">
-    @Html.Widget("header")
-
     <div id="topDiv1">
         <div class="header-selectors-wrapper">
             @Html.Action("TaxTypeSelector", "Common")
@@ -15,10 +14,10 @@
                 @Html.Action("FlyoutShoppingCart", "ShoppingCart")
             </div>
         </div>
-        @*@if (!string.IsNullOrEmpty(Model.HeaderPhone))
-        {
+        @if (!string.IsNullOrEmpty(Model.HeaderPhone))
+            {
             <div id="topText"><div id="tnText">@Model.HeaderPhone</div></div>
-        }*@
+        }
 
         <div id="logo"><a href="index.html"><img src="http://site.1-800-porcelain.com/i1/logo.jpg" alt="1-800-porcelain.com" width="419" height="82"><br></a></div>
 
