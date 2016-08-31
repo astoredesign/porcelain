@@ -1,0 +1,12 @@
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csproj.App.config
+E:\Project\porcelain\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+E:\Project\porcelain\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+E:\Project\porcelain\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb

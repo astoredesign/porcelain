@@ -1,0 +1,11 @@
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csproj.App.config
+E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb

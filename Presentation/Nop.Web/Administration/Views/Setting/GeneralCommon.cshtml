@@ -61,7 +61,7 @@
                                             <label>
                                                 <span>
                                                     <input type="radio" name="@Html.FieldNameFor(x => x.StoreInformationSettings.DefaultStoreTheme)" value="@theme.ThemeName"
-                                                           @if (theme.ThemeName == Model.StoreInformationSettings.DefaultStoreTheme) { <text> checked="checked" </text>  }>
+                                                           @if (theme.ThemeName == Model.StoreInformationSettings.DefaultStoreTheme) { <text> checked="checked" </text>   }>
                                                     @theme.ThemeTitle
                                                 </span>
                                                 <img src="@Url.Content(theme.PreviewImageUrl)" alt="@theme.PreviewText" title="@theme.PreviewText">
@@ -211,6 +211,20 @@
                             <div class="col-md-9">
                                 @Html.NopEditorFor(model => model.StoreInformationSettings.SitemapIncludeProducts)
                                 @Html.ValidationMessageFor(model => model.StoreInformationSettings.SitemapIncludeProducts)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="col-md-3">
+                                @Html.OverrideStoreCheckboxFor(model => model.CommonSettings.HeaderPhone_OverrideForStore, model => model.CommonSettings.HeaderPhone, Model.ActiveStoreScopeConfiguration)
+                                @Html.NopLabelFor(model => model.CommonSettings.HeaderPhone)
+                            </div>
+                            <div class="col-md-9">
+                                @Html.NopEditorFor(model => model.CommonSettings.HeaderPhone)
+                                @Html.ValidationMessageFor(model => model.CommonSettings.HeaderPhone)
                             </div>
                         </div>
                     </div>
@@ -554,7 +568,7 @@
                         </div>
                     </div>
                     <script type="text/javascript">
-                        $(document).ready(function() {
+                        $(document).ready(function () {
                             $("#@Html.FieldIdFor(model => model.SecuritySettings.CaptchaEnabled)").click(toggleReCaptcha);
                             toggleReCaptcha();
                         });
@@ -744,15 +758,15 @@
                                         @T("Admin.Configuration.Settings.GeneralCommon.FullTextSettings.NoiseWords")
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <div class="col-md-3">
-                                        @Html.NopLabelFor(model => model.FullTextSettings.SearchMode)
+                                    <div class="form-group">
+                                        <div class="col-md-3">
+                                            @Html.NopLabelFor(model => model.FullTextSettings.SearchMode)
+                                        </div>
+                                        <div class="col-md-9">
+                                            @Html.NopDropDownListFor(model => model.FullTextSettings.SearchMode, Model.FullTextSettings.SearchModeValues)
+                                            @Html.ValidationMessageFor(model => model.FullTextSettings.SearchMode)
+                                        </div>
                                     </div>
-                                    <div class="col-md-9">
-                                        @Html.NopDropDownListFor(model => model.FullTextSettings.SearchMode, Model.FullTextSettings.SearchModeValues)
-                                        @Html.ValidationMessageFor(model => model.FullTextSettings.SearchMode)
-                                    </div>
-                                </div>
                             }
                         }
                     </div>

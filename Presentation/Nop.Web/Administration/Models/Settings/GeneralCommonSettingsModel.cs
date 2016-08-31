@@ -17,8 +17,10 @@ namespace Nop.Admin.Models.Settings
             PdfSettings = new PdfSettingsModel();
             LocalizationSettings = new LocalizationSettingsModel();
             FullTextSettings = new FullTextSettingsModel();
+            CommonSettings = new CommonSettingsModel();
         }
 
+        public CommonSettingsModel CommonSettings { get; set; }
         public StoreInformationSettingsModel StoreInformationSettings { get; set; }
         public SeoSettingsModel SeoSettings { get; set; }
         public SecuritySettingsModel SecuritySettings { get; set; }
@@ -32,7 +34,16 @@ namespace Nop.Admin.Models.Settings
 
         #region Nested classes
 
-        public partial class StoreInformationSettingsModel : BaseNopModel
+        public partial class CommonSettingsModel : BaseNopModel
+        {
+            [NopResourceDisplayName("Admin.Configuration.Settings.GeneralCommon.HeaderPhone")]
+            [AllowHtml]
+            [NoTrim]
+            public string HeaderPhone { get; set; }
+            public bool HeaderPhone_OverrideForStore { get; set; }
+        }
+
+            public partial class StoreInformationSettingsModel : BaseNopModel
         {
             public StoreInformationSettingsModel()
             {

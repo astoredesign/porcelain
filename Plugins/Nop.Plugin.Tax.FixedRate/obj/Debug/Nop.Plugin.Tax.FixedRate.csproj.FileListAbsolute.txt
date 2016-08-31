@@ -1,0 +1,11 @@
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\Description.txt
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\web.config
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\Views\TaxFixedRate\Configure.cshtml
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\logo.jpg
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll.config
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll
+E:\Project\porcelain\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csproj.App.config
+E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache
+E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.dll
+E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.pdb

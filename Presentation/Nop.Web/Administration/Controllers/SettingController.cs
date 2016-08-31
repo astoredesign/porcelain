@@ -1690,6 +1690,8 @@ namespace Nop.Admin.Controllers
             model.StoreInformationSettings.LogoPictureId = storeInformationSettings.LogoPictureId;
             //EU Cookie law
             model.StoreInformationSettings.DisplayEuCookieLawWarning = storeInformationSettings.DisplayEuCookieLawWarning;
+            //common settings
+            model.CommonSettings.HeaderPhone = commonSettings.HeaderPhone;
             //social pages
             model.StoreInformationSettings.FacebookLink = storeInformationSettings.FacebookLink;
             model.StoreInformationSettings.TwitterLink = storeInformationSettings.TwitterLink;
@@ -1722,6 +1724,8 @@ namespace Nop.Admin.Controllers
                 model.StoreInformationSettings.SitemapIncludeCategories_OverrideForStore = _settingService.SettingExists(commonSettings, x => x.SitemapIncludeCategories, storeScope);
                 model.StoreInformationSettings.SitemapIncludeManufacturers_OverrideForStore = _settingService.SettingExists(commonSettings, x => x.SitemapIncludeManufacturers, storeScope);
                 model.StoreInformationSettings.SitemapIncludeProducts_OverrideForStore = _settingService.SettingExists(commonSettings, x => x.SitemapIncludeProducts, storeScope);
+
+                model.CommonSettings.HeaderPhone_OverrideForStore = _settingService.SettingExists(commonSettings, x => x.HeaderPhone, storeScope);
             }
 
             //seo settings
@@ -1847,6 +1851,9 @@ namespace Nop.Admin.Controllers
             //EU Cookie law
             storeInformationSettings.DisplayEuCookieLawWarning = model.StoreInformationSettings.DisplayEuCookieLawWarning;
             //social pages
+            commonSettings.HeaderPhone = model.CommonSettings.HeaderPhone;
+
+            //social pages
             storeInformationSettings.FacebookLink = model.StoreInformationSettings.FacebookLink;
             storeInformationSettings.TwitterLink = model.StoreInformationSettings.TwitterLink;
             storeInformationSettings.YoutubeLink = model.StoreInformationSettings.YoutubeLink;
@@ -1879,6 +1886,8 @@ namespace Nop.Admin.Controllers
             _settingService.SaveSettingOverridablePerStore(commonSettings, x => x.SitemapIncludeCategories, model.StoreInformationSettings.SitemapIncludeCategories_OverrideForStore, storeScope, false);
             _settingService.SaveSettingOverridablePerStore(commonSettings, x => x.SitemapIncludeManufacturers, model.StoreInformationSettings.SitemapIncludeManufacturers_OverrideForStore, storeScope, false);
             _settingService.SaveSettingOverridablePerStore(commonSettings, x => x.SitemapIncludeProducts, model.StoreInformationSettings.SitemapIncludeProducts_OverrideForStore, storeScope, false);
+
+            _settingService.SaveSettingOverridablePerStore(commonSettings, x => x.HeaderPhone, model.CommonSettings.HeaderPhone_OverrideForStore, storeScope, false);
 
             //now clear settings cache
             _settingService.ClearCache();
