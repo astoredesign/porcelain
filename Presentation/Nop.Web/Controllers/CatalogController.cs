@@ -360,6 +360,7 @@ namespace Nop.Web.Controllers
                 {
                     Id = category.Id,
                     Name = category.GetLocalized(x => x.Name),
+                    MenuName = category.GetLocalized(x => x.MenuName),
                     SeName = category.GetSeName(),
                     IncludeInTopMenu = category.IncludeInTopMenu
                 };
@@ -513,6 +514,7 @@ namespace Nop.Web.Controllers
                     {
                         Id = x.Id,
                         Name = x.GetLocalized(y => y.Name),
+                        MenuName = x.GetLocalized(y => y.MenuName),
                         SeName = x.GetSeName(),
                         Description = x.GetLocalized(y => y.Description)
                     };

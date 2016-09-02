@@ -68,3 +68,5 @@ E:\Project\porcelain\Libraries\Nop.Data\bin\Debug\System.Web.WebPages.Deployment
 E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.csprojResolveAssemblyReference.cache
 E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.dll
 E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.pdb
+E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.Migrations.MenuName.resources
+E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.csproj.GenerateResource.Cache

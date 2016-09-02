@@ -53,3 +53,4 @@ E:\Project\porcelain\Libraries\Nop.Core\bin\Debug\System.Web.WebPages.Deployment
 E:\Project\porcelain\Libraries\Nop.Core\bin\Debug\System.Web.WebPages.Razor.xml
 E:\Project\porcelain\Libraries\Nop.Core\obj\Debug\Nop.Core.dll
 E:\Project\porcelain\Libraries\Nop.Core\obj\Debug\Nop.Core.pdb
+E:\Project\porcelain\Libraries\Nop.Core\obj\Debug\Nop.Core.csprojResolveAssemblyReference.cache

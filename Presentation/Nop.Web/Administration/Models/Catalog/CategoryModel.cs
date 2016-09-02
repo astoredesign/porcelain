@@ -35,6 +35,10 @@ namespace Nop.Admin.Models.Catalog
         [AllowHtml]
         public string Name { get; set; }
 
+        [NopResourceDisplayName("Admin.Catalog.Categories.Fields.MenuName")]
+        [AllowHtml]
+        public string MenuName { get; set; }
+
         [NopResourceDisplayName("Admin.Catalog.Categories.Fields.Description")]
         [AllowHtml]
         public string Description { get; set; }
@@ -185,6 +189,10 @@ namespace Nop.Admin.Models.Catalog
         [NopResourceDisplayName("Admin.Catalog.Categories.Fields.Name")]
         [AllowHtml]
         public string Name { get; set; }
+
+        [NopResourceDisplayName("Admin.Catalog.Categories.Fields.MenuName")]
+        [AllowHtml]
+        public string MenuName { get; set; }
 
         [NopResourceDisplayName("Admin.Catalog.Categories.Fields.Description")]
         [AllowHtml]

@@ -1208,6 +1208,7 @@ namespace Nop.Services.ExportImport
             {
                 new PropertyByName<Category>("Id"),
                 new PropertyByName<Category>("Name"),
+                new PropertyByName<Category>("MenuName"),
                 new PropertyByName<Category>("Description"),
                 new PropertyByName<Category>("CategoryTemplateId"),
                 new PropertyByName<Category>("MetaKeywords"),
@@ -1258,6 +1259,7 @@ namespace Nop.Services.ExportImport
                         category.CreatedOnUtc = DateTime.UtcNow;
 
                     category.Name = manager.GetProperty("Name").StringValue;
+                    category.MenuName = manager.GetProperty("MenuName").StringValue;
                     category.Description = manager.GetProperty("Description").StringValue;
 
                     category.CategoryTemplateId = manager.GetProperty("CategoryTemplateId").IntValue;

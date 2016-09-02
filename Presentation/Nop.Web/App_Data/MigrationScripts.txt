@@ -1,0 +1,5 @@
+-- Script Date: 02-Sep-16 12:34 PM  - ErikEJ.SqlCeScripting version 3.5.2.58
+ALTER TABLE [Category] ADD [MenuName] nvarchar(400) NULL ;
+GO
+
+

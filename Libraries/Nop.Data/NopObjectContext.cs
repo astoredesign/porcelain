@@ -18,6 +18,10 @@ namespace Nop.Data
     {
         #region Ctor
 
+        //public NopObjectContext() : base("Data Source=|DataDirectory|\\Nop.Db.sdf;Persist Security Info=False")
+        //{
+        //}
+
         public NopObjectContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {

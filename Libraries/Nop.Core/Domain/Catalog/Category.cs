@@ -19,6 +19,11 @@ namespace Nop.Core.Domain.Catalog
         /// Gets or sets the name
         /// </summary>
         public string Name { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the menu name
+        /// </summary>
+        public string MenuName { get; set; }
 
         /// <summary>
         /// Gets or sets the description

@@ -6,3 +6,4 @@ E:\Project\porcelain\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
 E:\Project\porcelain\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
 E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
 E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
