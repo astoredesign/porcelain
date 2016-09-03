@@ -70,3 +70,5 @@ E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.dll
 E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.pdb
 E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.Migrations.MenuName.resources
 E:\Project\porcelain\Libraries\Nop.Data\obj\Debug\Nop.Data.csproj.GenerateResource.Cache
+Z:\home\Amerika\800-porcelain-asp\Libraries\Nop.Data\obj\Debug\Nop.Data.Migrations.MenuName.resources
+Z:\home\Amerika\800-porcelain-asp\Libraries\Nop.Data\obj\Debug\Nop.Data.csproj.GenerateResource.Cache
