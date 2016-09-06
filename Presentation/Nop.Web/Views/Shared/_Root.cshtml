@@ -14,7 +14,7 @@
                 @Html.Action("AdminHeaderLinks", "Common")
                 @Html.Action("Header", "Common")
                 <script type="text/javascript">
-                    AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
+                    AjaxCart.init(false, '.header-links-wrapper .cart-qty', '.header-links .wishlist-qty', '#flyout-cart-wrap');
                 </script>
                 <div class="header-menu clearfix">
                     @Html.Action("TopMenu", "Catalog")

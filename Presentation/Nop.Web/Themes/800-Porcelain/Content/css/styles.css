@@ -854,10 +854,14 @@ label, label + * {
 
 .header-links-wrapper {
     position: relative;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
 }
 
 .header-links {
+    position: absolute;
+    width: 400px;
+    left: 470px;
+    top: 9px;
 }
 
     .header-links ul {
@@ -871,9 +875,9 @@ label, label + * {
 
     .header-links span,
     .header-links a {
-        display: inline-block;
-        font-size: 12px; /*reset zeroing*/
-        line-height: 36px;
+        /*display: inline-block;*/
+        font-size: 11px; /*reset zeroing*/
+        line-height: 18px;
         text-transform: uppercase;
     }
 
@@ -883,16 +887,21 @@ label, label + * {
 
 #topcartlink {
     display: block;
-    width: 70%;
+    width: 240px;
     max-width: 400px;
     margin: 10px auto 0;
-    background-color: #f6f6f6;
+    /*background-color: #f6f6f6;*/
     padding: 0 20px;
+    position: absolute;
+    right: 0px;
+    top: 22px;
+    font-size: 11px;
 }
 
     #topcartlink a {
-        background: url('../images/shopping-bag.png') left center no-repeat;
-        padding: 0 0 0 20px;
+        /*background: url('../images/shopping-bag.png') left center no-repeat;
+        padding: 0 0 0 20px;*/
+        text-decoration: none;
     }
 
 .header-lower {
@@ -7035,30 +7044,33 @@ pre {
     }
 
     .header-links-wrapper {
-        float: right;
-        padding: 0;
+        /*float: right;
+        padding: 0;*/
     }
 
     .header-links li {
-        margin: 0 16px;
+        margin: 0 26px 0 0;
+        background: none;
+        padding: 0 0 0 0;
     }
 
     .header-links a,
     .header-links span {
-        line-height: 45px;
+        /*line-height: 45px;*/
         text-transform: none;
     }
 
     #topcartlink {
-        display: inline-block;
+        /*display: inline-block;
         width: auto;
         margin: 0;
         padding: 0 18px;
+        height: 45px;*/
     }
 
     .flyout-cart {
         position: absolute;
-        top: 45px;
+        top: 68px;
         right: 0;
         z-index: 100;
         width: 300px;
@@ -7212,6 +7224,7 @@ pre {
         border-bottom: 1px solid #ddd;
         padding: 25px 0;
         text-align: center;*/
+        border-bottom: 1px solid #96a8ba;
     }
 
     .menu-toggle,
@@ -7274,9 +7287,9 @@ pre {
             /*background: url(/i1/tnav-ar1a.gif) no-repeat right 6px;*/
         }
 
-        .header-menu .sublist li:hover {
-            background: #cad5d4 /*url(/i1/tnav-ar1a.gif) no-repeat right 6px*/;
-        }
+            .header-menu .sublist li:hover {
+                background: #cad5d4 /*url(/i1/tnav-ar1a.gif) no-repeat right 6px*/;
+            }
 
             .header-menu .sublist li a {
                 display: block;
@@ -7831,7 +7844,6 @@ pre {
 
     .header-menu {
         /*width: 1200px;*/
-        border-bottom: 1px solid #96a8ba;
     }
 
         .header-menu > ul > li {

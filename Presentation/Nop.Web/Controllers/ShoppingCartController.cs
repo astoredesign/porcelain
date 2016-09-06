@@ -815,6 +815,7 @@ namespace Nop.Web.Controllers
             {
                 ShowProductImages = _shoppingCartSettings.ShowProductImagesInMiniShoppingCart,
                 //let's always display it
+                ShoppingCartEnabled = _permissionService.Authorize(StandardPermissionProvider.EnableShoppingCart),
                 DisplayShoppingCartButton = true,
                 CurrentCustomerIsGuest = _workContext.CurrentCustomer.IsGuest(),
                 AnonymousCheckoutAllowed = _orderSettings.AnonymousCheckoutAllowed,

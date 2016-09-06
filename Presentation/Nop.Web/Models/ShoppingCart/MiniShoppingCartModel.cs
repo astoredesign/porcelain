@@ -13,6 +13,7 @@ namespace Nop.Web.Models.ShoppingCart
 
         public IList<ShoppingCartItemModel> Items { get; set; }
         public int TotalProducts { get; set; }
+        public bool ShoppingCartEnabled { get; set; }
         public string SubTotal { get; set; }
         public bool DisplayShoppingCartButton { get; set; }
         public bool DisplayCheckoutButton { get; set; }
