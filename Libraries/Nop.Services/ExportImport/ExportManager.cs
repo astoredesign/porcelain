@@ -101,7 +101,7 @@ namespace Nop.Services.ExportImport
                     xmlWriter.WriteStartElement("Category");
                     xmlWriter.WriteElementString("Id", null, category.Id.ToString());
                     xmlWriter.WriteElementString("Name", null, category.Name);
-                    xmlWriter.WriteElementString("MenuName", null, category.Name);
+                    xmlWriter.WriteElementString("MenuName", null, category.MenuName);
                     xmlWriter.WriteElementString("Description", null, category.Description);
                     xmlWriter.WriteElementString("CategoryTemplateId", null, category.CategoryTemplateId.ToString());
                     xmlWriter.WriteElementString("MetaKeywords", null, category.MetaKeywords);
@@ -512,7 +512,7 @@ namespace Nop.Services.ExportImport
             {
                 new PropertyByName<Category>("Id", p => p.Id),
                 new PropertyByName<Category>("Name", p => p.Name),
-                new PropertyByName<Category>("MenuName", p => p.Name),
+                new PropertyByName<Category>("MenuName", p => p.MenuName),
                 new PropertyByName<Category>("Description", p => p.Description),
                 new PropertyByName<Category>("CategoryTemplateId", p => p.CategoryTemplateId),
                 new PropertyByName<Category>("MetaKeywords", p => p.MetaKeywords),
