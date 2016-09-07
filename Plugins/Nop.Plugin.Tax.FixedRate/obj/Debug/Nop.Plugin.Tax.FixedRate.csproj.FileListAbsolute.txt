@@ -9,3 +9,14 @@ E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.F
 E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache
 E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.pdb
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csproj.App.config
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.dll
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.pdb
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\Description.txt
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\web.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\Views\TaxFixedRate\Configure.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\logo.jpg
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.pdb

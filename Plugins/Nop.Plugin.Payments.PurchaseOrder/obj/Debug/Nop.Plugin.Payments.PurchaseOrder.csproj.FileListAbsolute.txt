@@ -10,3 +10,15 @@ E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plu
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csproj.App.config
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb

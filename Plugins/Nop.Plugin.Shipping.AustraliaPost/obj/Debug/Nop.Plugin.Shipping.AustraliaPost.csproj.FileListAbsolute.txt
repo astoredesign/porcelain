@@ -9,3 +9,14 @@ E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plu
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csproj.App.config
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb

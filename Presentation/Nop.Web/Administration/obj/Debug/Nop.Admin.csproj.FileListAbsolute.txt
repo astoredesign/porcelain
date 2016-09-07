@@ -5,3 +5,10 @@ E:\Project\porcelain\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csp
 E:\Project\porcelain\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csprojResolveAssemblyReference.cache
 E:\Project\porcelain\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.dll
 E:\Project\porcelain\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.pdb
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\bin\Nop.Admin.dll.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\bin\Nop.Admin.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\bin\Nop.Admin.pdb
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csproj.App.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Administration\obj\Debug\Nop.Admin.pdb

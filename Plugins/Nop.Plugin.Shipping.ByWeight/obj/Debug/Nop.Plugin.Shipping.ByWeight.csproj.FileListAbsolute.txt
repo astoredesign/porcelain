@@ -12,3 +12,17 @@ E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.S
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\Configure.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\EditPopup.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\_CreateOrUpdate.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\AddPopup.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\web.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Description.txt
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\logo.jpg
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.pdb
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csproj.App.config
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb

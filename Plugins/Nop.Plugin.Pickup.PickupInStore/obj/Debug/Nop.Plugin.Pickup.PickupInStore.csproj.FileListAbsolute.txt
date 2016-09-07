@@ -11,3 +11,16 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugi
 E:\Project\porcelain\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
 E:\Project\porcelain\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.pdb
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Description.txt
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Configure.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Create.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Edit.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\_CreateOrUpdate.cshtml
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\web.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\logo.png
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll.config
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll
+Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.pdb
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.dll
+Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.pdb

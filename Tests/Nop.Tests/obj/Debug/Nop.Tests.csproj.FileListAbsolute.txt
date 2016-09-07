@@ -7,3 +7,12 @@ E:\Project\porcelain\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
 E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
 E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
 E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
