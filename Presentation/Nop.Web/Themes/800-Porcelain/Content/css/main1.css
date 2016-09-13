@@ -1,243 +1,10 @@
-/*fonts*/
-body, td, th, select, input, p {
-    font-size: 12px;
-    font-family: Arial, Tahoma, Verdana, Helvetica;
-    color: #333333;
-}
-
-font {
-    font-size: 12px;
-}
 
 body {
     padding: 0px 0 31px 0;
-    background: #7692b9 url(http://site.1-800-porcelain.com/i1/main-bg.gif) repeat-x;
+    background: #7692b9 url('../i1/main-bg.gif') repeat-x;
     margin: 0px;
     text-align: center;
 }
-
-a {
-    color: #213c70;
-    text-decoration: underline;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.bd {
-    font-weight: bold;
-}
-
-.nm {
-    font-weight: normal;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-    table td {
-        padding: 0px;
-    }
-
-a img {
-    border: 0;
-}
-
-.sth0 {
-    font-family: Tahoma;
-}
-
-.sth1 {
-    font-family: Arial;
-}
-
-.sth2 {
-    font-family: Arial Narrow;
-}
-
-.sth3 {
-    font-family: Arial Black;
-}
-
-.sth7 h2 {
-    font-size: 13px;
-    padding: 0;
-    margin: 0;
-}
-
-.fs10 {
-    font-size: 10px;
-}
-
-.fs11 {
-    font-size: 11px;
-}
-
-.fs12 {
-    font-size: 12px;
-}
-
-.fs13 {
-    font-size: 13px;
-}
-
-.fs14 {
-    font-size: 14px;
-}
-
-.fs15 {
-    font-size: 15px;
-}
-
-.fs16 {
-    font-size: 16px;
-}
-
-.fs17 {
-    font-size: 17px;
-}
-
-.fs18 {
-    font-size: 18px;
-}
-
-.fs19 {
-    font-size: 19px;
-}
-
-.fs20 {
-    font-size: 20px;
-}
-
-.fs21 {
-    font-size: 21px;
-}
-
-.fs22 {
-    font-size: 22px;
-}
-
-.fs24 {
-    font-size: 24px;
-}
-
-
-.al0 {
-    text-align: left;
-}
-
-.al1 {
-    text-align: center;
-}
-
-.al2 {
-    text-align: right;
-}
-
-.al4 {
-    float: left;
-}
-
-.al5 {
-    text-transform: uppercase;
-}
-
-.al6 {
-    float: right;
-}
-
-.al7 {
-    text-decoration: line-through;
-}
-
-
-.co0 {
-    color: #333333;
-}
-
-.co1 {
-    color: #ffffff;
-}
-
-.co2 {
-    color: #000000;
-}
-
-.co3 {
-    color: #a41e29;
-}
-
-.co4 {
-    color: #8d1e17;
-}
-/*lists*/
-/*rotator*/
-.div23 {
-    visibility: hidden;
-    position: absolute;
-    display: none;
-}
-
-.div24 {
-    visibility: visible;
-    position: static;
-    display: block;
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-}
-
-h1 {
-    color: #677f29;
-    font-size: 18px;
-    padding: 0 0 0px 0;
-}
-
-h3 {
-    font-size: 14px;
-    padding: 0px 0 0px 0;
-    color: #213c70;
-    font-weight: bold;
-}
-
-/*marg */
-
-
-.marg0 {
-    padding: 16px 15px 0 0;
-}
-
-.marg1 {
-    padding: 2px 0px 3px 0;
-}
-
-
-a.href0:link, a.href0:visited {
-    color: #000000;
-    text-decoration: none;
-}
-
-a.href0:hover {
-    color: #000000;
-    text-decoration: underline;
-}
-
-a.href1:link, a.href1:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a.href1:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-
 
 #wrap {
     width: 1000px;
@@ -247,18 +14,18 @@ a.href1:hover {
 }
 
 #wrapIn {
-    background: #fff url(http://site.1-800-porcelain.com/i1/main1.gif) no-repeat;
+    background: #fff url('../i1/main1.gif') no-repeat;
 }
 
 #wrapIn1 {
-    background: url(http://site.1-800-porcelain.com/i1/main2.gif) no-repeat bottom left;
+    background: url('../i1/main2.gif') no-repeat bottom left;
 }
 
 #htsText {
     height: 28px;
     text-align: left;
     color: #bfcbdc;
-    background: url(http://site.1-800-porcelain.com/i1/top-hts.gif) no-repeat 130px 0;
+    background: url('../i1/top-hts.gif') no-repeat 130px 0;
     font-size: 11px;
     padding-left: 10px;
     ;
@@ -270,12 +37,6 @@ a.href1:hover {
 
 #topDiv1 {
     height: 91px;
-}
-
-#logoBlock {
-}
-
-#logo {
 }
 
 #topText {
@@ -345,30 +106,13 @@ a.href1:hover {
         height: 300px;
     }
 
-#mainArea {
-}
-
-#mainAreaIn {
-}
-
-#leftColumn {
-    float: left;
-    width: 189px;
-    ;
-}
-
-#leftColumnIn {
-    padding-left: 10px;
-    text-align: left;
-}
-
 
 .lnav-ttl {
     color: #fff;
     font-size: 14px;
     font-weight: bold;
     padding: 4px 5px 4px 15px;
-    background: url(http://site.1-800-porcelain.com/i1/lnav-ttl.gif) no-repeat;
+    background: url(../i1/lnav-ttl.gif) no-repeat;
     margin-bottom: 8px;
 }
 
@@ -378,7 +122,7 @@ a.href1:hover {
     overflow: auto;
 }
 
-.jScrollPaneContainer {
+/*.jScrollPaneContainer {
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -419,13 +163,11 @@ a.jScrollArrowUp {
     top: 0;
     right: 0;
     text-indent: -2000px;
-    overflow: hidden;
-    /*background-color: #666;*/
-    height: 9px;
+    overflow: hidden;    height: 9px;
 }
 
     a.jScrollArrowUp:hover {
-        /*background-color: #f60;*/
+
     }
 
 a.jScrollArrowDown {
@@ -436,16 +178,13 @@ a.jScrollArrowDown {
     right: 0;
     text-indent: -2000px;
     overflow: hidden;
-    /*background-color: #666;*/
     height: 9px;
 }
 
     a.jScrollArrowDown:hover {
-        /*background-color: #f60;*/
     }
 
 a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
-    /*background-color: #f00;*/
 }
 
 .jScrollPaneContainer .jScrollPaneTrack {
@@ -474,18 +213,121 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 .jScrollPaneContainer a.jScrollArrowDown {
     height: 14px;
     background: url(http://site.1-800-porcelain.com/i1/frontpane_down.gif) no-repeat 0 0;
+}*/
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
 }
 
+.jspPane
+{
+	position: absolute;
+}
 
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
 
-#lNav .N1 {
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+#lNav li {
     border-top: 1px dotted #cccccc;
-}
-
-#lNav .N2 {
-}
-
-.lev1 {
+    display:block;
     padding: 2px 3px 3px 16px;
     font-size: 13px;
     font-weight: bold;
@@ -513,16 +355,13 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     font-weight: bold;
 }
 
-/*.lev3{padding:3px 0 3px 24px;font-weight:normal;background: url(http://site.1-800-porcelain.com/i1/lnav-dot2.gif) no-repeat 12px 6px;font-size:11px;}
-.lev3on{padding:3px 0 3px 24px;font-weight:normal;background: url(http://site.1-800-porcelain.com/i1/lnav-dot2a.gif) no-repeat 12px 6px;font-size:11px;}*/
 
-.lev1 a {
+#lNav li a {
     color: #474747;
     text-decoration: none;
 }
 
-    .lev1 a:hover {
-        color: #474747;
+    #lNav li a:hover {
         text-decoration: underline;
     }
 
@@ -1612,8 +1451,8 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 
 
 li {
-    background: url(http://site.1-800-porcelain.com/i1/ar1.gif) no-repeat 2px 4px;
-    padding: 0 0 0 12px;
+    /*background: url(http://site.1-800-porcelain.com/i1/ar1.gif) no-repeat 2px 4px;
+    padding: 0 0 0 12px;*/
 }
 
 
