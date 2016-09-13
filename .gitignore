@@ -1,3 +1,9 @@
 Presentation/Nop.Web/App_Data/Nop.Db.sdf
+<<<<<<< HEAD
+
+.vs/NopCommerce/v14/
+.suo
+=======
 .vs/NopCommerce/v14/.suo
+>>>>>>> 55462b4bfed08b79022c5e0998ed14d8263ee355
 .vs/config/applicationhost.config
