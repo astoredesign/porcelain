@@ -324,67 +324,75 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     font-weight: bold;
 }
 
-.lev1on {
-    padding: 2px 3px 3px 16px;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-
-.lev2 {
-    padding: 1px 0 5px 31px;
-    font-weight: normal;
-    background: url(http://site.1-800-porcelain.com/i1/lnav-dot1.gif) no-repeat 19px 5px;
-    font-size: 11px;
-}
-
-.lev2on {
-    padding: 1px 0 5px 31px;
-    font-weight: normal;
-    background: url(http://site.1-800-porcelain.com/i1/lnav-dot1.gif) no-repeat 19px 5px;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-
-#lNav li a {
-    color: #474747;
-    text-decoration: none;
-}
-
-    #lNav li a:hover {
-        text-decoration: underline;
+    #lNav li.active {
+        padding: 2px 3px 3px 16px;
+        font-size: 13px;
+        font-weight: bold;
     }
 
-.lev1on a {
-    color: #3884ba;
-    text-decoration: none;
-}
+    #lNav li a {
+        color: #474747;
+        text-decoration: none;
+    }
 
-    .lev1on a:hover {
+        #lNav li a:hover {
+            text-decoration: underline;
+        }
+
+    #lNav li.active > a {
         color: #3884ba;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
-.lev2 a {
-    color: #213c70;
-    text-decoration: none;
+        #lNav li.active > a:hover {
+            color: #3884ba;
+            text-decoration: underline;
+        }
+
+#lNav .sublist {
+    margin: 5px 0 0 0;
 }
 
-    .lev2 a:hover {
+    #lNav .sublist li.inactive {
+        border-top: none;
+        padding: 1px 0 5px 31px;
+        font-weight: normal;
+        background: url(../i1/lnav-dot1.gif) no-repeat 19px 5px;
+        font-size: 11px;
+    }
+
+    #lNav .sublist li.active {
+        border-top: none;
+        padding: 1px 0 5px 31px;
+        font-weight: normal;
+        background: url(../i1/lnav-dot1.gif) no-repeat 19px 5px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+
+
+    #lNav .sublist li.inactive > a {
         color: #213c70;
-        text-decoration: underline;
+        text-decoration: none;
+        font-size: 11px;
     }
 
-.lev2on a {
-    color: #3884ba;
-    text-decoration: none;
-}
+        #lNav .sublist li.inactive > a:hover {
+            color: #213c70;
+            text-decoration: underline;
+        }
 
-    .lev2on a:hover {
+    #lNav .sublist li.active > a {
         color: #3884ba;
-        text-decoration: underline;
+        text-decoration: none;
+        font-size: 11px;
     }
+
+        #lNav .sublist li.active > a:hover {
+            color: #3884ba;
+            text-decoration: underline;
+        }
 
 .lev3 a {
     color: #005398;

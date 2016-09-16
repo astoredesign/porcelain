@@ -31,7 +31,14 @@ if (last)
 }
     <li class="@liClass">
         <a href="@Url.RouteUrl("Category", new { SeName = category.SeName })">
-            @category.Name
+            @if (!String.IsNullOrEmpty(category.MenuName))
+            {
+                @category.MenuName
+            }
+            else
+            {
+                @category.Name
+            }
         @if (category.NumberOfProducts.HasValue)
         {
             <text> </text>@T("Categories.TotalProducts", category.NumberOfProducts.Value)
