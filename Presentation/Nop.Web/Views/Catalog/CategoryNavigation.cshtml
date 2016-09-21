@@ -69,7 +69,7 @@ if (last)
         </div>
         <div id="lNav">
             <ul>
-                @foreach (var category in Model.Categories)
+                @foreach (var category in Model.Categories.FirstOrDefault(x=>x.Id == 26).SubCategories)
                 {
                     @RenderCategoryLine(category)
                 }

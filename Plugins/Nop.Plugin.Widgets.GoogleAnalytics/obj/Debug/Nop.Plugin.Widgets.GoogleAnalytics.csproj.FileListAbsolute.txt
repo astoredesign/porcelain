@@ -8,7 +8,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Nop.Pl
 E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Views\WidgetsGoogleAnalytics\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\web.config
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Widgets.GoogleAnalytics\Description.txt
@@ -20,3 +19,4 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.csprojResolveAssemblyReference.cache

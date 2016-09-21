@@ -8,7 +8,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\No
 E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
@@ -20,3 +19,4 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.CustomerRoles
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache

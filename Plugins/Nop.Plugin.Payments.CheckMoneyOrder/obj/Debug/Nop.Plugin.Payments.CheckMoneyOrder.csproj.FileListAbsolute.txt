@@ -9,7 +9,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Nop.P
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Views\PaymentCheckMoneyOrder\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\Views\PaymentCheckMoneyOrder\PaymentInfo.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.CheckMoneyOrder\web.config
@@ -22,3 +21,4 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\ob
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.Payments.CheckMoneyOrder\obj\Debug\Nop.Plugin.Payments.CheckMoneyOrder.csprojResolveAssemblyReference.cache

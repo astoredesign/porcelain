@@ -33,7 +33,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.
 E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\arrows.png
@@ -70,3 +69,4 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debu
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache

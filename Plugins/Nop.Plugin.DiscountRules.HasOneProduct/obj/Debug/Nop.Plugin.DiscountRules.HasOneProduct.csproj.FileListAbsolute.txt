@@ -9,7 +9,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\No
 E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
@@ -22,3 +21,4 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
