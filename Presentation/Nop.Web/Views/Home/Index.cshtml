@@ -6,7 +6,16 @@
 }
 <div class="page home-page">
     <div class="page-body">
-        @Html.Widget("home_page_top")
+        <div id="hMid" class="clearfix">
+            <div class="c1">
+                @Html.Widget("home_page_top")
+            </div>
+            <div class="c2">
+                <div style="height:120px;"><a href="/black-cockerel-teaset"><img src="/Themes/800-Porcelain/Content/i1/home-ban1.jpg" alt="Black Cockerel Style" width="220" height="120"></a></div>
+                <div style="height:120px;"><a href="/goldgarden"><img src="/Themes/800-Porcelain/Content/i1/home-ban2.jpg" alt="Golden Garden Style" width="220" height="120"></a></div>
+                <div style="height:120px;"><a href="/tendency-style"><img src="/Themes/800-Porcelain/Content/i1/home-ban3.jpg" alt="Tendency Style" width="220" height="120"></a></div>
+            </div>
+        </div>
         @Html.Action("TopicBlock", "Topic", new { systemName = "HomePageText" })
         @Html.Widget("home_page_before_categories")
         @Html.Action("HomepageCategories", "Catalog")

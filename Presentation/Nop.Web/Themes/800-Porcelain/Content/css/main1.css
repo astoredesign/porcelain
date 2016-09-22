@@ -453,7 +453,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     #hMid .c1 {
         float: left;
         width: 580px;
-        padding-top: 0px;
+        padding: 0px 5px 0 0;
     }
 
     #hMid .c2 {
