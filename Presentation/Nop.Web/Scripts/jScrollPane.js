@@ -229,3 +229,14 @@
     }
 
 }));
+
+
+
+$(document).ready(function () {
+    $('#lNav').jScrollPane({ showArrows: true });
+    var apijsp = $('#lNav').data('jsp');
+    var top_active = $("#lNav li.active").offset().top -
+        $("#lNav li.active").parent().offset().top -
+        $("#lNav li.active").parent().scrollTop();
+    apijsp.scrollTo(0, top_active, 100);
+});
