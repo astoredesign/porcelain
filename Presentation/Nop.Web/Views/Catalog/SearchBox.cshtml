@@ -2,9 +2,23 @@
 @using Nop.Web.Models.Catalog;
 @using (Html.BeginRouteForm("ProductSearch", FormMethod.Get, new { id = "small-search-box-form" }))
 {
-    <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="@T("Search.SearchBox.Tooltip")" />
-    @Html.Widget("searchbox_before_search_button")
-    <input type="submit" class="button-1 search-box-button" value="@T("Search.Button")" />
+
+    <div id="searchLine">
+        <div id="search">
+            <form action="http://search.store.yahoo.net/lomonosov-porcelain/cgi-bin/nsearch#GA_CLIENT_ID=1757032987.1471502572" method="get" onsubmit="if (query.value == '') {alert('Enter search keywords!');return false;} return true;">
+                <div class="c1">          <input type="text" class="tex" id="small-searchterms" autocomplete="off" name="q" placeholder="@T("Search.SearchBox.Tooltip")" /></div>
+
+                <div class="c2">
+                    @Html.Widget("searchbox_before_search_button")
+                    <input type="image" src="http://site.1-800-porcelain.com/i1/t-p.gif" width="33" height="26" alt="@T("Search.Button")" />
+                </div>
+                <div class="c3"><a href="show-cases.html" title="Show Case"><img src="http://site.1-800-porcelain.com/i1/t-p.gif" alt="Show Case" width="124" height="24"></a>   <a href="factory18.html" title="Lomonosov Porcelain History"><img src="http://site.1-800-porcelain.com/i1/t-p.gif" alt="Lomonosov Porcelain History" width="164" height="24"></a></div>
+            </form>
+        </div>
+    </div>
+
+
+
     if (Model.SearchTermMinimumLength > 0)
     {
         <script type="text/javascript">
@@ -23,16 +37,16 @@
             <script type="text/javascript">
                 $(document).ready(function() {
                     $('#small-searchterms').autocomplete({
-                            delay: 500,
-                            minLength: @(Model.SearchTermMinimumLength.ToString()),
-                            source: '@(Url.RouteUrl("ProductSearchAutoComplete"))',
-                            appendTo: '.search-box',
-                            select: function(event, ui) {
-                                $("#small-searchterms").val(ui.item.label);
-                                setLocation(ui.item.producturl);
-                                return false;
-                            }
-                        })
+                        delay: 500,
+                        minLength: @(Model.SearchTermMinimumLength.ToString()),
+                        source: '@(Url.RouteUrl("ProductSearchAutoComplete"))',
+                        appendTo: '.search-box',
+                        select: function(event, ui) {
+                            $("#small-searchterms").val(ui.item.label);
+                            setLocation(ui.item.producturl);
+                            return false;
+                        }
+                    })
                         .data("ui-autocomplete")._renderItem = function(ul, item) {
                             var t = item.label;
                             //html encode

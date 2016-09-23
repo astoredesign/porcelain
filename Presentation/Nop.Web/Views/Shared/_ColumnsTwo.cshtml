@@ -44,11 +44,23 @@
         @Html.Widget("left_side_column_before")
         @Html.Action("CategoryNavigation", "Catalog", new { currentCategoryId = currentCategoryId, currentProductId = currentProductId })
         @Html.Widget("left_side_column_after_category_navigation")
-        @Html.Action("ManufacturerNavigation", "Catalog", new { currentManufacturerId = currentManufacturerId })
-        @Html.Action("VendorNavigation", "Catalog")
+        if (this.Context.Request.Path != "/")
+        {
+            <div class="lban1">
+                <div class="lban2">
+                    <div class="lban3">
+                        <img src="http://site.1-800-porcelain.com/i1/lban-logo.jpg" alt="LFZ Authentic Logo" width="145" height="65">
+                        Porcelain items are hand painted and each of them has the original Lomonosov Porcelain Factory (LFZ) logo at the back.<br>
+                        <b>Note:</b> Because of the high demand and exclusivity, our inventory quickly sells out. Some of the items are selling while supplies last.
+                    </div>
+                </div>
+            </div>
+        }
+        @*@Html.Action("ManufacturerNavigation", "Catalog", new { currentManufacturerId = currentManufacturerId })
+        @Html.Action("VendorNavigation", "Catalog")*@
         @Html.Action("RecentlyViewedProductsBlock", "Product", new { productThumbPictureSize = 64 })
-        @Html.Action("PopularProductTags", "Catalog")
-        @Html.Action("PollBlock", "Poll", new { systemKeyword = "LeftColumnPoll" })
+        @*@Html.Action("PopularProductTags", "Catalog")
+        @Html.Action("PollBlock", "Poll", new { systemKeyword = "LeftColumnPoll" })*@
         @Html.Widget("left_side_column_after")
     }
 </div>
