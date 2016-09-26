@@ -601,6 +601,7 @@
     <Content Include="Scripts\fineuploader\iframe.xss.response-4.2.2.js" />
     <Content Include="Scripts\fineuploader\jquery.fineuploader-4.2.2.js" />
     <Content Include="Scripts\fineuploader\jquery.fineuploader-4.2.2.min.js" />
+    <Content Include="Scripts\jTools.js" />
     <Content Include="Scripts\jScrollPane.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1118,6 +1119,7 @@
     <Content Include="Scripts\public.onepagecheckout.js" />
     <Content Include="Scripts\public.common.js" />
     <Content Include="Themes\DefaultClean\Content\css\print.css" />
+    <Content Include="Views\Shared\_ProductBox.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1176,6 +1178,7 @@
     <Content Include="Themes\800-Porcelain\theme.config" />
     <Content Include="Themes\800-Porcelain\Views\Shared\Head.cshtml" />
     <Content Include="Themes\800-Porcelain\Views\Web.config" />
+    <Content Include="Views\Shared\_ProductBoxSmall.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\bin\" />
@@ -1204,7 +1207,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml" />
-    <Content Include="Views\Shared\_ProductBox.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\Head.cshtml" />

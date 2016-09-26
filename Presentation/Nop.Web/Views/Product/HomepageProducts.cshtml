@@ -1,20 +1,40 @@
 ﻿@model IList<ProductOverviewModel>
-
 @using Nop.Web.Models.Catalog;
-
 @if (Model.Count > 0)
 {
-    <div class="product-grid home-page-product-grid">
-        <div class="title">
-            <strong>@T("HomePage.Products")</strong>
-        </div>
-        <div class="item-grid">
-            @foreach (var item in Model)
-            {
-                <div class="item-box">
-                    @Html.Partial("_ProductBox", item)
+    <div id="best1">
+        <div id="best2">
+            <div id="best3">
+                <div class="ttl">WE RECOMMEND</div>
+                <div id="maincd">
+                    <div id="itemc">
+                        @foreach (var item in Model)
+                        {
+                            <div>
+                                @Html.Partial("_ProductBoxSmall", item)
+                            </div>
+                        }
+                    </div>
                 </div>
-            }
+
+                <a class="prevPage browse left"><img src="/Themes/800-Porcelain/Content/i1/t-p.gif" alt="" width="10" height="35" /></a>
+                <a class="nextPage browse right"><img src="/Themes/800-Porcelain/Content/i1/t-p.gif" alt="" width="10" height="35" /></a>
+
+                <script type="text/javascript">
+                    // <![CDATA[
+                    $(document).ready(function () {
+
+                        $("#maincd").scrollable({
+
+                            size: 7, vertical: false,
+                            clickable: false,
+
+                            // up/down keys will always control this scrollable
+                            keyboard: 'static'
+                        }).circular();
+                    });
+                    // ]]></script>
+            </div>
         </div>
     </div>
 }

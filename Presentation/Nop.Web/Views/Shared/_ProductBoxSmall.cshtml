@@ -1,0 +1,12 @@
+﻿@model ProductOverviewModel
+@using Nop.Core
+@using Nop.Core.Domain.Orders
+@using Nop.Core.Domain.Tax
+@using Nop.Core.Infrastructure
+@using Nop.Web.Models.Catalog;
+
+<div class="picture" style="background-image:url(@Model.DefaultPictureModel.ImageUrl)">
+    <a href="@Url.RouteUrl("Product", new { SeName = Model.SeName })" title="@Model.DefaultPictureModel.Title">
+        <img alt="@Model.DefaultPictureModel.AlternateText" src="/Themes/800-Porcelain/Content/i1/best-frame.gif" title="@Model.DefaultPictureModel.Title" />
+    </a>
+</div>
