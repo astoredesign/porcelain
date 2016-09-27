@@ -168,7 +168,7 @@ label, label + * {
 }
 
 .center-2, .side-2 {
-    margin: 0 0 50px;
+    /*margin: 0 0 50px;*/
 }
 
     .side-2:after {

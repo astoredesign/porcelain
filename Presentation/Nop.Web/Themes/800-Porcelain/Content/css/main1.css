@@ -1660,6 +1660,11 @@ li {
     font-size: 11px;
 }
 
+
+#botNav li{
+    display: inline-block;
+}
+
     #botNav a {
         color: #999999;
         text-decoration: none;
