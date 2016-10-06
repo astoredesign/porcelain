@@ -8,7 +8,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipp
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt

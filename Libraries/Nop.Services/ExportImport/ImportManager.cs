@@ -53,6 +53,7 @@ namespace Nop.Services.ExportImport
         private readonly ITaxCategoryService _taxCategoryService;
         private readonly IMeasureService _measureService;
         private readonly CatalogSettings _catalogSettings;
+        private System.Net.WebClient webClient = null;
 
         #endregion
 
@@ -183,7 +184,24 @@ namespace Nop.Services.ExportImport
                         continue;
 
                     var mimeType = GetMimeTypeFromFilePath(picturePath);
-                    var newPictureBinary = File.ReadAllBytes(picturePath);
+                    byte[] newPictureBinary;
+
+                    try
+                    {
+                        if (picturePath.ToLower().StartsWith("http"))
+                        {
+                            if (webClient == null) webClient = new System.Net.WebClient();
+                            newPictureBinary = webClient.DownloadData(picturePath);
+                        }
+                        else
+                        {
+                            newPictureBinary = File.ReadAllBytes(picturePath);
+                        }
+                    }
+                    catch
+                    {
+                        break;
+                    }
                     var pictureAlreadyExists = false;
                     if (!product.IsNew)
                     {
@@ -235,7 +253,26 @@ namespace Nop.Services.ExportImport
                         continue;
 
                     var mimeType = GetMimeTypeFromFilePath(picturePath);
-                    var newPictureBinary = File.ReadAllBytes(picturePath);
+                    byte[] newPictureBinary;
+
+                    try
+                    {
+                        if (picturePath.ToLower().StartsWith("http"))
+                        {
+                            if (webClient == null) webClient = new System.Net.WebClient();
+                            newPictureBinary = webClient.DownloadData(picturePath);
+                        }
+                        else
+                        {
+                            newPictureBinary = File.ReadAllBytes(picturePath);
+                        }
+                    }
+                    catch
+                    {
+                        break;
+                    }
+
+
                     var pictureAlreadyExists = false;
                     if (!product.IsNew)
                     {

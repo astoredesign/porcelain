@@ -19,4 +19,3 @@ Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.Had
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache

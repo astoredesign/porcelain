@@ -9,7 +9,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Payments.Manual\Nop.Plugin.Pay
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.csproj.App.config
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Payments.Manual\obj\Debug\Nop.Plugin.Payments.Manual.dll

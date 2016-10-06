@@ -9,7 +9,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Pl
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentPayPalStandard\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentPayPalStandard\PaymentInfo.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\web.config

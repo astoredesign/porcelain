@@ -21,4 +21,3 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache

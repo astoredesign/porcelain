@@ -69,4 +69,3 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debu
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache

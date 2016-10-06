@@ -11,7 +11,6 @@ E:\Project\porcelain\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.S
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csproj.App.config
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
 E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\Configure.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\EditPopup.cshtml
 Z:\home\Amerika\800-porcelain-asp\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\_CreateOrUpdate.cshtml

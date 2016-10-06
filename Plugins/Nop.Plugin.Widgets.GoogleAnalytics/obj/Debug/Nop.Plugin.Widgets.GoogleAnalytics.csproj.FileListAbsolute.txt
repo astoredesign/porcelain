@@ -19,4 +19,3 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Widgets.GoogleAnalytics\obj\Debug\Nop.Plugin.Widgets.GoogleAnalytics.csprojResolveAssemblyReference.cache

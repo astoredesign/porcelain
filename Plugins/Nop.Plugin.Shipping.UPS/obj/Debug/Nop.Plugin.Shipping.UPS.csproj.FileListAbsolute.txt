@@ -19,4 +19,3 @@ Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
 Z:\home\Amerika\800-porcelain-asp\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb
-E:\Project\porcelain\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache

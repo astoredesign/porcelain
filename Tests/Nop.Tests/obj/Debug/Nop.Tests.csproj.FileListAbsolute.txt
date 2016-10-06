@@ -15,3 +15,4 @@ Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
 Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
 Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
 Z:\home\Amerika\800-porcelain-asp\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+E:\Project\porcelain\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
