@@ -75,7 +75,7 @@ body {
     overflow-x: hidden;
     background-color: #fff;
     font: normal 14px Arial, Helvetica, sans-serif;
-    color: #777;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1416,7 +1416,7 @@ label, label + * {
 
 
 .breadcrumb {
-    margin: 0 0 50px;
+    margin: 0 0 0px 0;
     background-color: #f6f6f6;
     padding: 5px 10px;
 }
@@ -1432,7 +1432,7 @@ label, label + * {
         .breadcrumb li * {
             display: inline-block;
             margin: 0 5px;
-            font-size: 14px; /*reset zeroing*/
+            font-size: 11px; /*reset zeroing*/
             line-height: 32px;
         }
 
@@ -7456,7 +7456,7 @@ pre {
 
 
     .breadcrumb {
-        margin: 0 0 20px;
+        margin: 0 0 0px;
     }
 
     .item-box .buttons {

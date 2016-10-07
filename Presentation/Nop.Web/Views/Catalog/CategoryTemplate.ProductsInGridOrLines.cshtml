@@ -23,50 +23,60 @@
 @using Nop.Core.Domain.Seo;
 @using Nop.Core.Infrastructure;
 @using Nop.Web.Models.Catalog;
-@*category breadcrumb*@
-@section Breadcrumb
-{
-    @if (Model.DisplayCategoryBreadcrumb)
-    {
-        <div class="breadcrumb">
-            <ul>
-                <li>
-                    <a href="@Url.RouteUrl("HomePage")" title="@T("Categories.Breadcrumb.Top")">@T("Categories.Breadcrumb.Top")</a>
-                    <span class="delimiter">@breadcrumbDelimiter</span>
-                </li>
-                @foreach (var cat in Model.CategoryBreadcrumb)
-                {
-                    var isLastCategory = cat.Id == Model.Id;
-                    <li>
-                        @if (isLastCategory)
-                        {
-                            <strong class="current-item">@cat.Name</strong>
-                        }
-                        else
-                        {
-                            <a href="@Url.RouteUrl("Category", new { SeName = cat.SeName })" title="@cat.Name">@cat.Name</a>
-                            <span class="delimiter">@breadcrumbDelimiter</span>
-                        }
-                    </li>
-                }
-            </ul>
-        </div>
-        @Html.Widget("categorydetails_after_breadcrumb", Model.Id)
-    }
-}
+
 <div class="page category-page">
-    <div class="page-title">
-        <h1>@Model.Name</h1>
+
+    <div id="sdet1">
+        <div id="sdet2">
+            <div id="sdet3" class="clearfix">
+                <div class="c1">
+                    <img src="@Model.PictureModel.ImageUrl" alt="@Model.Name">
+                </div>
+                <div class="c2">
+                    <h1>@Model.Name</h1>
+                    @if (!String.IsNullOrWhiteSpace(Model.Description))
+                    {
+                        @Html.Raw(Model.Description)
+                    }
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="cr1">
+        <div class="cr2">
+            <div class="cr3">
+                <div class="breadcrumb">
+                    <ul>
+                        <li>
+                            <a href="@Url.RouteUrl("HomePage")" title="@T("Categories.Breadcrumb.Top")">@T("Categories.Breadcrumb.Top")</a>
+                            <span class="delimiter">@breadcrumbDelimiter</span>
+                        </li>
+                        @foreach (var cat in Model.CategoryBreadcrumb)
+            {
+                var isLastCategory = cat.Id == Model.Id;
+                            <li>
+                                @if (isLastCategory)
+                                {
+                                    <strong class="current-item">@cat.Name</strong>
+                                }
+                                else
+                                {
+                                    <a href="@Url.RouteUrl("Category", new { SeName = cat.SeName })" title="@cat.Name">@cat.Name</a>
+                                    <span class="delimiter">@breadcrumbDelimiter</span>
+                                }
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="page-body">
         @Html.Widget("categorydetails_top", Model.Id)
-        @*description*@
-        @if (!String.IsNullOrWhiteSpace(Model.Description))
-        {
-            <div class="category-description">
-                @Html.Raw(Model.Description)
-            </div>
-        }
         @Html.Widget("categorydetails_before_subcategories", Model.Id)
         @*subcategories*@
         @if (Model.SubCategories.Count > 0)
