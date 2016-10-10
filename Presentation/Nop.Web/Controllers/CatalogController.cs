@@ -441,9 +441,23 @@ namespace Nop.Web.Controllers
                 _webHelper.GetThisPageUrl(false),
                 _storeContext.CurrentStore.Id);
 
+            var pictureSize = _mediaSettings.CategoryThumbPictureSize;
             var model = category.ToModel();
-            
 
+            //prepare picture model
+            var categoryPictureCacheKey = string.Format(ModelCacheEventConsumer.CATEGORY_PICTURE_MODEL_KEY, category.Id, pictureSize, true, _workContext.WorkingLanguage.Id, _webHelper.IsCurrentConnectionSecured(), _storeContext.CurrentStore.Id);
+            model.PictureModel = _cacheManager.Get(categoryPictureCacheKey, () =>
+            {
+                var picture = _pictureService.GetPictureById(category.PictureId);
+                var pictureModel = new PictureModel
+                {
+                    FullSizeImageUrl = _pictureService.GetPictureUrl(picture),
+                    ImageUrl = _pictureService.GetPictureUrl(picture, pictureSize),
+                    Title = string.Format(_localizationService.GetResource("Media.Category.ImageLinkTitleFormat"), model.Name),
+                    AlternateText = string.Format(_localizationService.GetResource("Media.Category.ImageAlternateTextFormat"), model.Name)
+                };
+                return pictureModel;
+            });
 
 
             //sorting
@@ -494,10 +508,6 @@ namespace Nop.Web.Controllers
                 );
             }
 
-
-            
-            var pictureSize = _mediaSettings.CategoryThumbPictureSize;
-
             //subcategories
             string subCategoriesCacheKey = string.Format(ModelCacheEventConsumer.CATEGORY_SUBCATEGORIES_KEY,
                 categoryId,
@@ -520,8 +530,8 @@ namespace Nop.Web.Controllers
                     };
 
                     //prepare picture model
-                    var categoryPictureCacheKey = string.Format(ModelCacheEventConsumer.CATEGORY_PICTURE_MODEL_KEY, x.Id, pictureSize, true, _workContext.WorkingLanguage.Id, _webHelper.IsCurrentConnectionSecured(), _storeContext.CurrentStore.Id);
-                    subCatModel.PictureModel = _cacheManager.Get(categoryPictureCacheKey, () =>
+                    var subCategoryPictureCacheKey = string.Format(ModelCacheEventConsumer.CATEGORY_PICTURE_MODEL_KEY, x.Id, pictureSize, true, _workContext.WorkingLanguage.Id, _webHelper.IsCurrentConnectionSecured(), _storeContext.CurrentStore.Id);
+                    subCatModel.PictureModel = _cacheManager.Get(subCategoryPictureCacheKey, () =>
                     {
                         var picture = _pictureService.GetPictureById(x.PictureId);
                         var pictureModel = new PictureModel

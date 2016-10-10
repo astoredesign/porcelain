@@ -1612,6 +1612,11 @@ label, label + * {
             background-color: #999;
         }
 
+        .item-grid  {
+            border: 1px solid #ccc;
+            border-radius:10px;
+        }
+
 .item-grid:after {
     content: "";
     display: block;
@@ -6369,7 +6374,7 @@ pre {
                 }
 
     .item-box {
-        width: 32.33333%;
+        width: 19%;
         margin: 0 0.5% 50px;
     }
 
@@ -6377,7 +6382,7 @@ pre {
             clear: none;
         }
 
-        .item-box:nth-child(3n+1) {
+        .item-box:nth-child(5n+1) {
             clear: both;
         }
 
@@ -6934,6 +6939,7 @@ pre {
     .center-2 {
         float: right;
         width: 805px;
+        padding:0 10px 0 0;
     }
 
     .side-2 {
