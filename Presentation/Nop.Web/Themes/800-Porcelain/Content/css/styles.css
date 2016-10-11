@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: inherit;
     cursor: pointer;
+    color: #213c70;
 }
 
     a img {
@@ -1612,16 +1613,16 @@ label, label + * {
             background-color: #999;
         }
 
-        .item-grid  {
-            border: 1px solid #ccc;
-            border-radius:10px;
-        }
-
-.item-grid:after {
-    content: "";
-    display: block;
-    clear: both;
+.item-grid {
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
+
+    .item-grid:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 
 .item-box {
     position: relative;
@@ -1631,11 +1632,22 @@ label, label + * {
     text-align: left;
 }
 
+    .item-box .item-buttons {
+        position: absolute;
+        z-index: 100;
+        width: 60px;
+        height: 10px;
+        top: 11px;
+        left: 75px;
+    }
+
     .item-box .picture {
         z-index: 1;
         overflow: hidden;
         background-color: #fff;
-        margin: 0 0 20px;
+        margin: 10px auto 10px auto;
+        width: 123px;
+        border: 1px solid #ccc;
     }
 
         .item-box .picture a {
@@ -1674,8 +1686,8 @@ label, label + * {
     .item-box .product-title {
         margin: 0 0 10px;
         overflow: hidden;
-        font-size: 17px;
-        line-height: 1.2;
+        font-size: 12px;
+        line-height: 1.1;
         font-weight: normal;
         color: #4ab2f1;
     }
@@ -1720,15 +1732,16 @@ label, label + * {
 
     .item-box .old-price {
         margin: 0 5px 0 0;
-        font-size: 16px;
+        font-size: 13px;
         color: #aaa;
         text-decoration: line-through;
     }
 
     .item-box .actual-price {
         margin: 0 5px 0 0;
-        font-size: 16px;
-        color: #666;
+        font-size: 13px;
+        color: #3884ba;
+        font-weight: bold;
     }
 
     .item-box .tax-shipping-info a {
@@ -1746,7 +1759,7 @@ label, label + * {
 
     .item-box input[type="button"] {
         display: inline-block;
-        height: 40px;
+        height: 20px;
         border: none;
         vertical-align: middle;
     }
@@ -1766,7 +1779,7 @@ label, label + * {
 
     .item-box .add-to-compare-list-button,
     .item-box .add-to-wishlist-button {
-        width: 20%;
+        width: 28px;
         border-left: 1px solid #fff !important;
         background-color: #eaeaea;
         background-position: center;
@@ -6939,7 +6952,7 @@ pre {
     .center-2 {
         float: right;
         width: 805px;
-        padding:0 10px 0 0;
+        padding: 0 10px 0 0;
     }
 
     .side-2 {
