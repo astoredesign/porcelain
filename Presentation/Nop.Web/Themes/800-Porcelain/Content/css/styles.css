@@ -6156,11 +6156,11 @@ pre {
         }
 
         .item-box .product-rating-box {
-            margin: 0 0 15px;
+            margin: 0 0 5px;
         }
 
         .item-box .prices {
-            height: 40px;
+            /*height: 40px;*/
         }
 
         .item-box .product-title {
