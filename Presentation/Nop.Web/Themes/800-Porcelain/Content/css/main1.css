@@ -425,6 +425,7 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 .lban1 {
     background: url(http://site.1-800-porcelain.com/i1/lban-y.gif) repeat-y 4px 0;
     padding-left: 4px;
+    margin: 10px 0 0 0;
 }
 
 .lban2 {
@@ -1661,9 +1662,9 @@ li {
 }
 
 
-#botNav li{
-    display: inline-block;
-}
+    #botNav li {
+        display: inline-block;
+    }
 
     #botNav a {
         color: #999999;

@@ -1616,6 +1616,7 @@ label, label + * {
 .item-grid {
     border: 1px solid #ccc;
     border-radius: 10px;
+    overflow: hidden;
 }
 
     .item-grid:after {
@@ -1624,11 +1625,17 @@ label, label + * {
         clear: both;
     }
 
+.category-page .item-box {
+    border-right: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    margin: 0 0 -1px 0;
+}
+
 .item-box {
     position: relative;
     width: 100%;
     float: left;
-    margin: 0 0 80px;
+    margin: 0 0 0 0;
     text-align: left;
 }
 
@@ -6387,12 +6394,22 @@ pre {
                 }
 
     .item-box {
-        width: 19%;
-        margin: 0 0.5% 50px;
+        width: 20%;
+        margin: 0 0 0 0;
+        padding: 0 0.5% 10px 0;
     }
 
         .item-box:nth-child(2n+1) {
             clear: none;
+        }
+
+        .item-box:nth-child(4n+1) {
+            border-right: none;
+        }
+
+        .item-box:first-child {
+            border-right: 1px dotted #ccc;
+            ;
         }
 
         .item-box:nth-child(5n+1) {
