@@ -1814,6 +1814,10 @@ label, label + * {
     margin: 0 0 20px;
 }
 
+.sub-category-grid {
+    margin: 10px 0 20px 0;
+}
+
     .home-page-category-grid .title,
     .sub-category-grid .title {
         text-align: center;
