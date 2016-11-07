@@ -3,7 +3,7 @@
 @using Nop.Core.Infrastructure;
 @using Nop.Web.Models.Catalog;
 @{
-    Layout = "~/Views/Shared/_ColumnsOne.cshtml";
+    Layout = "~/Views/Shared/_ColumnsTwo.cshtml";
 
     //title
     Html.AddTitleParts(!String.IsNullOrEmpty(Model.MetaTitle) ? Model.MetaTitle : Model.Name);
@@ -45,13 +45,21 @@
     }
 }
 <!--product breadcrumb-->
-@section Breadcrumb
-{
-    @Html.Partial("_ProductBreadcrumb", Model.Breadcrumb)
-}
 @Html.Widget("productdetails_after_breadcrumb", Model.Id)
 <div class="page product-details-page">
     <div class="page-body">
+        <div id="sdet1a">
+            <div id="sdet2">
+                <div id="sdet3" class="clearfix">
+                    <div class="c2">
+                        <h1 itemprop="name">
+                            @Model.Name
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.Partial("_ProductBreadcrumb", Model.Breadcrumb)
         @Html.Widget("productdetails_top", Model.Id)
         @using (Html.BeginRouteForm("Product", new { SeName = Model.SeName }, FormMethod.Post, new { id = "product-details-form" }))
         {
@@ -63,11 +71,6 @@
                     @Html.Widget("productdetails_after_pictures", Model.Id)
                     <div class="overview">
                         @Html.Partial("_Discontinued", Model)
-                        <div class="product-name">
-                            <h1 itemprop="name">
-                                @Model.Name
-                            </h1>
-                        </div>
                         @if (!String.IsNullOrEmpty(Model.ShortDescription))
                         {
                             <div class="short-description">
@@ -139,6 +142,7 @@
                         </div>
                     }
                 </div>
+                @Html.Action("RecentlyViewedProductsBlock", "Product", new { productThumbPictureSize = 64 })
                 @Html.Widget("productdetails_before_collateral", Model.Id)
                 <div class="product-collateral">
                     @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
@@ -147,7 +151,7 @@
                 @Html.Action("ProductsAlsoPurchased", "Product", new { productId = Model.Id })
                 @Html.Action("RelatedProducts", "Product", new { productId = Model.Id })
             </div>
-        }
+                                }
         @Html.Widget("productdetails_bottom", Model.Id)
     </div>
 </div>
