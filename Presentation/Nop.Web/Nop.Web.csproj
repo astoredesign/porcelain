@@ -601,6 +601,7 @@
     <Content Include="Scripts\fineuploader\iframe.xss.response-4.2.2.js" />
     <Content Include="Scripts\fineuploader\jquery.fineuploader-4.2.2.js" />
     <Content Include="Scripts\fineuploader\jquery.fineuploader-4.2.2.min.js" />
+    <Content Include="Scripts\lightbox.js" />
     <Content Include="Scripts\jTools.js" />
     <Content Include="Scripts\jScrollPane.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

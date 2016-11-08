@@ -8,26 +8,9 @@
     <div class="picture">
         @if (Model.DefaultPictureZoomEnabled)
         {
-            <a href="@Model.DefaultPictureModel.FullSizeImageUrl" title="@Model.DefaultPictureModel.Title" id="main-product-img-lightbox-anchor-@Model.Id">
+            <a href="@Model.DefaultPictureModel.FullSizeImageUrl" title="@Model.DefaultPictureModel.Title" id="main-product-img-lightbox-anchor-@Model.Id" rev="lightbox[gr1]">
                 <img alt="@Model.DefaultPictureModel.AlternateText" src="@Model.DefaultPictureModel.ImageUrl" title="@Model.DefaultPictureModel.Title" itemprop="image" id="main-product-img-@Model.Id" />
             </a>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    $('#main-product-img-lightbox-anchor-@Model.Id').magnificPopup(
-                    {
-                        type: 'image',
-                        removalDelay: 300,
-                        gallery: {
-                            enabled: true,
-                            tPrev: '@T("Media.MagnificPopup.Previous")',
-                            tNext: '@T("Media.MagnificPopup.Next")',
-                            tCounter: '@T("Media.MagnificPopup.Counter")'
-                        },
-                        tClose: '@T("Media.MagnificPopup.Close")',
-                        tLoading: '@T("Media.MagnificPopup.Loading")'
-                    });
-                });
-            </script>
         }
         else
         {
@@ -39,27 +22,10 @@
         <div class="picture-thumbs">
             @foreach (var picture in Model.PictureModels)
             {
-                <a class="thumb-popup-link" href="@picture.FullSizeImageUrl" title="@picture.Title">
+                <a class="thumb-popup-link" href="@picture.FullSizeImageUrl" title="@picture.Title" rev="lightbox[gr1]">
                     <img src="@picture.ImageUrl" alt="@picture.AlternateText" title="@picture.Title" />
                 </a>
             }
         </div>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('.thumb-popup-link').magnificPopup(
-                {
-                    type: 'image',
-                    removalDelay: 300,
-                    gallery: {
-                        enabled: true,
-                        tPrev: '@T("Media.MagnificPopup.Previous")',
-                        tNext: '@T("Media.MagnificPopup.Next")',
-                        tCounter: '@T("Media.MagnificPopup.Counter")'
-                    },
-                    tClose: '@T("Media.MagnificPopup.Close")',
-                    tLoading: '@T("Media.MagnificPopup.Loading")'
-                });
-            });
-        </script>
     }
 </div>
