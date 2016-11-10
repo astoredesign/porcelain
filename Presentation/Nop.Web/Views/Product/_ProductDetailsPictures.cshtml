@@ -20,12 +20,31 @@
     @if (Model.PictureModels.Count > 1)
     {
         <div class="picture-thumbs">
+            @{
+                var i = 1;
+            }
             @foreach (var picture in Model.PictureModels)
             {
-                <a class="thumb-popup-link" href="@picture.FullSizeImageUrl" title="@picture.Title" rev="lightbox[gr1]">
-                    <img src="@picture.ImageUrl" alt="@picture.AlternateText" title="@picture.Title" />
-                </a>
+                if (@Model.DefaultPictureModel.FullSizeImageUrl != @picture.FullSizeImageUrl)
+                {
+                    <span class="thumb-popup-link-wrap">
+                        <a class="thumb-popup-link" href="@picture.FullSizeImageUrl" title="@picture.Title" rev="lightbox[gr1]">
+                            <img src="@picture.ImageUrl" alt="@picture.AlternateText" title="@picture.Title" />
+                        </a>
+                        <a href="@picture.FullSizeImageUrl" title="@picture.Title" rev="lightbox[gr1]">
+                            @if (@picture.Title != @Model.DefaultPictureModel.Title)
+                        {
+                                @picture.Title
+                            }
+                            else
+                            {
+                                @("Pic") @i
+                            }
+                        </a>
+                    </span>
+                    i = i + 1;
+                }
             }
         </div>
-    }
+                }
 </div>

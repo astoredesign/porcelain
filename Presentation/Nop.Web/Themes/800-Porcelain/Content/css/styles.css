@@ -2018,13 +2018,32 @@ label, label + * {
         font-size: 0;
     }
 
-        .gallery .picture-thumbs a {
+        .gallery .picture-thumbs .thumb-popup-link-wrap {
             display: inline-block;
+            width: 86px;
+        }
+
+        .gallery .picture-thumbs a.thumb-popup-link {
+            display: inline-block;
+            border: 1px solid #d2d5da;
             position: relative;
-            width: 100px;
-            height: 100px;
-            margin: 0 5px 10px;
+            width: 76px;
+            height: 76px;
+            margin: 0 5px 5px 5px;
             overflow: hidden;
+        }
+
+            .gallery .picture-thumbs a.thumb-popup-link + a {
+                font-size: 11px;
+                width: 76px;
+                display: inline-block;
+                text-align: center;
+                margin: 0 5px 5px 5px;
+            }
+
+
+        .gallery .picture-thumbs a img {
+            border: 5px solid #fff;
         }
 
 .overview {
