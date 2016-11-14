@@ -1462,9 +1462,11 @@ li {
 
 
 .curTtl {
-    background: url(http://site.1-800-porcelain.com/i1/curttl.gif) no-repeat left top;
+    background: url(../i1/curttl.gif) no-repeat left top;
     padding: 5px 0 4px 19px;
     font-weight: bold;
+    font-size: 12px;
+    text-transform:uppercase;
 }
 
 .curWrap {

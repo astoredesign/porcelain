@@ -8016,6 +8016,45 @@ pre {
     }
 }
 
+.block-recently-viewed-products {
+    border-bottom: 1px dotted #b2b2b2;
+}
+
+    .block-recently-viewed-products li {
+        vertical-align: top;
+        border-right: 1px dotted #b2b2b2;
+        width: 133px;
+        text-align: center;
+        font-size: 11px;
+        padding-top: 10px;
+    }
+
+    .block-recently-viewed-products a.product-picture {
+        display: inline-block;
+        border: 1px solid #d2d5da;
+        position: relative;
+        width: 96px;
+        height: 96px;
+        margin: 0 5px 5px 5px;
+        overflow: hidden;
+    }
+
+        .block-recently-viewed-products a.product-picture img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+        }
+
+    .block-recently-viewed-products .product-name {
+        display: inline-block;
+        padding:0 0 10px 0;
+    }
+
 /*-----------------------------------------------------------------------------
 
   CSS Magic
