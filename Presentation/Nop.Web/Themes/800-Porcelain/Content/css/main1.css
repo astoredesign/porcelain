@@ -1409,6 +1409,10 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     padding: 14px 0 8px 0;
 }
 
+.codeWrap {
+    padding: 0 0 20px;
+}
+
 .but1 {
     background: url(http://site.1-800-porcelain.com/i1/but-y.gif) repeat-y;
     margin-top: 2px;

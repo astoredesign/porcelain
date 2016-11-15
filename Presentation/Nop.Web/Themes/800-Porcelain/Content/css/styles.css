@@ -1965,11 +1965,10 @@ label, label + * {
 
 .product-details-page {
     padding: 20px 0 0;
+    font-size: 12px;
 }
 
 .product-essential {
-    margin: 0 0 40px;
-    border-bottom: 1px solid #ddd;
     padding: 0 0 10px;
 }
 
@@ -2048,7 +2047,7 @@ label, label + * {
 
 .overview {
     position: relative;
-    margin: 0 0 50px;
+    margin: 0 0 10px;
 }
 
     .overview .discontinued-product {
