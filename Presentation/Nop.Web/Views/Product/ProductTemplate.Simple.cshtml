@@ -78,6 +78,47 @@
                             </div>
                         }
                         @Html.Widget("productdetails_overview_top", Model.Id)
+
+                        <div class="iord1">
+                            <div class="iord2">
+                                <div class="iord3">
+                                    <script language="JavaScript" type="text/javascript">var ranges0 = new Array(); var qtyvalue0 = 1; var optionvalue0 = new Array(); var ipr0 = 14; calcitems = 0; </script>
+                                    <div class="c2">
+                                        <div class="c2In">
+                                            <div class="line"><strong>Item code:</strong> @Model.Sku</div>
+                                            <div class="avl"><strong>Availability:</strong>  <span>While Supplies Last.  4 pcs left</span></div>
+                                            <!--availability-->
+                                            @Html.Partial("_Availability", Model)
+                                        </div>
+                                    </div>
+
+                                    <div class="c3">
+                                        <div class="prDiv">
+                                            <div class="pr"><div class="line"><div class="pr2">$14.00</div> Retail Price:<br clear="all"></div></div>
+                                            <div class="line1">
+                                                <div class="qty">Quantity:&nbsp;</div>	<div class="al4"><input type="text" class="tex" name="vwquantity0" onfocus="this.value=qtyvalue0;" onkeyup="((isNaN(this.value))?(this.value=1):(''));qtyvalue0=this.value;updateall('0');" value="1"></div><br clear="all">
+                                            </div>
+
+
+                                            <div class="line1"><div class="qty1">ITEM TOTAL:&nbsp;</div><div class="al4"><input name="pricetxt" type="text" class="tex1" value="" readonly=""></div><br clear="all"></div>
+
+
+                                            <div class="bt"><input type="image" src="http://site.1-800-porcelain.com/i1/add2.gif" width="144" height="24" alt="Order Now" border="0"><br></div>
+
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <br clear="all"><div style="height:1px;"><img src="http://site.1-800-porcelain.com/i1/t-p.gif"></div>
+
+                                    <script language="JavaScript">updateall('0');</script>
+                                </div>
+                            </div>
+                        </div>
+
                         <!--product reviews-->
                         @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
                         <!--manufacturers-->
