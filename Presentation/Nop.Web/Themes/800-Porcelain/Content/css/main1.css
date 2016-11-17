@@ -1233,26 +1233,28 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 .iord1 {
-    background: url(http://site.1-800-porcelain.com/i1/iord1.gif) no-repeat;
+    background: url(../i1/iord1.gif) no-repeat;
     padding: 9px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .iord2 {
-    background: url(http://site.1-800-porcelain.com/i1/iord-y.gif) repeat-y;
+    background: url(../i1/iord-y.gif) repeat-y;
 }
 
 .iord3 {
-    background: url(http://site.1-800-porcelain.com/i1/iord2.gif) no-repeat bottom left;
+    background: url(../i1/iord2.gif) no-repeat bottom left;
     ;
     padding: 0px 0 7px 12px;
+    font-size: 11px;
 }
 
 .iord2b {
-    background: url(http://site.1-800-porcelain.com/i1/iorda-y.gif) repeat-y;
+    background: url(../i1/iorda-y.gif) repeat-y;
 }
 
 .iord3b {
-    background: url(http://site.1-800-porcelain.com/i1/iorda2.gif) no-repeat bottom left;
+    background: url(../i1/iorda2.gif) no-repeat bottom left;
     ;
     padding: 0px 0 7px 12px;
 }
@@ -1296,11 +1298,15 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     font-size: 12px;
 }
 
-.avl {
+.availability {
     padding: 5px 3px 5px 7px;
 }
 
-    .avl span {
+    .availability span.label {
+        font-weight: bold;
+    }
+
+    .availability span.value {
         color: #cc0000;
     }
 
@@ -1470,7 +1476,7 @@ li {
     padding: 5px 0 4px 19px;
     font-weight: bold;
     font-size: 12px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .curWrap {

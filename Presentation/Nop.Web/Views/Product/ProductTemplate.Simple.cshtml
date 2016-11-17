@@ -63,7 +63,7 @@
         @Html.Widget("productdetails_top", Model.Id)
         @using (Html.BeginRouteForm("Product", new { SeName = Model.SeName }, FormMethod.Post, new { id = "product-details-form" }))
         {
-            <div itemscope itemtype="http://schema.org/Product" data-productid="@Model.Id">
+            <div itemscope itemtype="http://schema.org/Product" data-productid="@Model.Id" id="itemDiv">
                 <div class="product-essential">
                     @Html.Widget("productdetails_before_pictures", Model.Id)
                     <!--product pictures-->
@@ -86,7 +86,6 @@
                                     <div class="c2">
                                         <div class="c2In">
                                             <div class="line"><strong>Item code:</strong> @Model.Sku</div>
-                                            <div class="avl"><strong>Availability:</strong>  <span>While Supplies Last.  4 pcs left</span></div>
                                             <!--availability-->
                                             @Html.Partial("_Availability", Model)
                                         </div>

@@ -7551,7 +7551,7 @@ pre {
 
     .gallery {
         float: left;
-        width: 46%;
+        width: 340px;
     }
 
         .gallery .picture {
@@ -7560,7 +7560,7 @@ pre {
 
     .overview {
         float: right;
-        width: 52%;
+        width: 445px;
     }
 
     .rental-attributes {
