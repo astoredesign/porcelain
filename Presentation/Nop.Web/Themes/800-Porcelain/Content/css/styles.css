@@ -2187,7 +2187,6 @@ label, label + * {
 
 .overview .availability,
 .variant-overview .availability {
-    margin: 0 0 20px;
     overflow: hidden;
 }
 
