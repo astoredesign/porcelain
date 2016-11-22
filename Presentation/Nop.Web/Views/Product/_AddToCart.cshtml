@@ -45,6 +45,9 @@
                                     return false;
                                 }
                             });
+                            $("#@Html.FieldIdFor(model => model.EnteredQuantity)").keyup(function (event) {
+                                updateall('0');
+                            });
                         });
                     </script>
                 }

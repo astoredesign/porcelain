@@ -3,29 +3,28 @@
 
 var savingArray = false;
 
-function updateall(num) {
-    num = 0;
+function updateall() {
+    var num = 0;
     var totalprice = 0;
-    calcq(num);
+    //calcq(num); for ranges
     qvSaving = 0;
 
-    ((eval("optionvalue" + num).length > 0) ? (totalprice = eval("qtyvalue" + num) * (eval("ipr" + num) + calcoptions(num))) : (totalprice = eval("qtyvalue" + num) * eval("ipr" + num)));
+    //    (optionvalue0.length > 0) ? (totalprice = $(".qtyline .qty-input").val() * ($(".product-price .price-value").attr("content") + calcoptions())) : (totalprice = eval("qtyvalue" + num) * eval("ipr" + num));
+    var productPrice = $(".product-price .price-value").attr("content");
+    totalprice = $(".qtyline .qty-input").val() * (productPrice * 1 + calcoptions());
 
+    //totalprice = Math.round(totalprice * 1000) / 1000;
 
-    //totalprice
+    //if (savingArray) {
+    //    if (eval("qtyvalue" + num) < savingArray.length) {
+    //        qvSaving = savingArray[eval("qtyvalue" + num)] * eval("qtyvalue" + num)
+    //    }
+    //    else {
+    //        qvSaving = savingArray[(savingArray.length - 1)] * eval("qtyvalue" + num)
+    //    }
+    //    totalprice = totalprice - qvSaving;
 
-    totalprice = Math.round(totalprice * 1000) / 1000;
-
-    if (savingArray) {
-        if (eval("qtyvalue" + num) < savingArray.length) {
-            qvSaving = savingArray[eval("qtyvalue" + num)] * eval("qtyvalue" + num)
-        }
-        else {
-            qvSaving = savingArray[(savingArray.length - 1)] * eval("qtyvalue" + num)
-        }
-        totalprice = totalprice - qvSaving;
-
-    }
+    //}
 
     if (totalprice > 0) {
 
@@ -46,40 +45,29 @@ function calcq(num) {
     }
 }
 
-function calcoptions(num) {
+function calcoptions() {
     var optval = 0;
-    len = eval("optionvalue" + num + ".length");
+    len = eval("optionvalue0" + ".length");
     for (j = 1; j < len; j++) {
-        optcheck = eval("optionvalue" + num + "[" + j + "]");
+        optcheck = eval("optionvalue0" + "[" + j + "]");
         optval = (optcheck) ? optcheck : optval;
-        //if (optcheck.indexOf('+$') != -1) {
-        //    optval = optval + eval(optcheck.split('(+$')[1].split(')')[0]);
-        //}
-        //else {
-        //    if (optcheck.indexOf('-$') != -1) {
-        //        optval = optval + eval('-' + optcheck.split('(-$')[1].split(')')[0]);
-        //    }
-        //    else {
-        //        optval = optval + 0;
-        //    }
-        //}
     }
     return eval(optval);
 }
 
 
 function chprice(pr, num) {
-    obj = eval("document.forms.multiorder.pricetxt");
+    obj = $(".pricetxt");
 
 
-    if (pr.toString().indexOf('.') != -1) {
-        pr = pr.toString().substring(0, pr.toString().indexOf('.') + 3);
-        if (pr.toString().split('.')[1].length == 1) pr = pr + '0';
-    } else {
-        pr = pr + '.00';
+    //if (pr.toString().indexOf('.') != -1) {
+    //    pr = pr.toString().substring(0, pr.toString().indexOf('.') + 3);
+    //    if (pr.toString().split('.')[1].length == 1) pr = pr + '0';
+    //} else {
+    //    pr = pr + '.00';
+    //}
+    if (obj.length > 0) {
+        obj.html('$' + pr.toFixed(2));
     }
-    if (document.forms['multiorder'].pricetxt) {
-        obj.value = '$' + pr;
-    }
-    if (document.forms['email-send']) { document.forms['email-send'].elements['totalPrice'].value = '$' + pr; }
+    //if (document.forms['email-send']) { document.forms['email-send'].elements['totalPrice'].value = '$' + pr; }
 }

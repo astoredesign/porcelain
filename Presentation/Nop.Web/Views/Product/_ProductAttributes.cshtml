@@ -343,9 +343,9 @@
                     data: $('#product-details-form').serialize(),
                     type: 'post',
                     success: function(data) {
-                        if (data.price) {
+                        @*if (data.price) {
                             $('.price-value-@productId').text(data.price);
-                        }
+                        }*@
                         if (data.sku) {
                             $('#sku-@productId').text(data.sku);
                         }
