@@ -10,7 +10,7 @@ function updateall() {
     qvSaving = 0;
 
     //    (optionvalue0.length > 0) ? (totalprice = $(".qtyline .qty-input").val() * ($(".product-price .price-value").attr("content") + calcoptions())) : (totalprice = eval("qtyvalue" + num) * eval("ipr" + num));
-    var productPrice = $(".product-price .price-value").attr("content");
+    var productPrice = $(".pr2.price-value").attr("content");
     totalprice = $(".qtyline .qty-input").val() * (productPrice * 1 + calcoptions());
 
     //totalprice = Math.round(totalprice * 1000) / 1000;
@@ -71,3 +71,11 @@ function chprice(pr, num) {
     }
     //if (document.forms['email-send']) { document.forms['email-send'].elements['totalPrice'].value = '$' + pr; }
 }
+
+
+$(document).ready(function () {
+    var retailPrice = $(".pr1.old-product-price").attr("content").substring(1) * 1;
+    var productPrice = $(".pr2.price-value").attr("content") * 1;
+    var savings = (100 * (retailPrice - productPrice) / retailPrice).toFixed(0);
+    $(".pr2.saving").html("-" + savings + "%");
+});

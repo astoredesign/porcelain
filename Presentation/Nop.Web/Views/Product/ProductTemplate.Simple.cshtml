@@ -91,23 +91,21 @@
                                                 dataDictAttributes.TemplateInfo.HtmlFieldPrefix = string.Format("attributes_{0}", Model.Id);
                                                 @Html.Partial("_ProductAttributes", Model.ProductAttributes, dataDictAttributes)
                                             }
-                                            <div class="line1 clearfix"><div class="opt">Package Size:</div><div class="iopt1"><input type="Radio" name="vwattr0_Package Size" onclick="optionvalue0[1]=this.value;updateall('0');" value="2oz" checked="">&nbsp;2oz &nbsp;&nbsp; </div><div class="iopt1"><input type="Radio" name="vwattr0_Package Size" onclick="optionvalue0[1]=this.value;updateall('0');" value="16oz (+$33)">&nbsp;16oz (+$33) &nbsp;&nbsp; </div></div>
-                                            <div class="line1 clearfix"><div class="opt">Color:</div><div class="iopt1"><input type="Radio" name="vwattr0_Color" onclick="optionvalue0[2]=this.value;updateall('0');" value="Red" checked="">&nbsp;Red &nbsp;&nbsp; </div><div class="iopt1"><input type="Radio" name="vwattr0_Color" onclick="optionvalue0[2]=this.value;updateall('0');" value="Blue">&nbsp;Blue &nbsp;&nbsp; </div></div>
                                             <!--availability-->
                                             @Html.Partial("_Availability", Model)
                                         </div>
                                     </div>
                                     <div class="c3">
                                         <div class="prDiv">
-                                            <div class="pr"><div class="line"><div class="pr2">$14.00</div> Retail Price:<br clear="all"></div></div>
                                             <!--price & add to cart-->
-                                            @{
-                                                var dataDictPrice = new ViewDataDictionary();
-                                                dataDictPrice.TemplateInfo.HtmlFieldPrefix = string.Format("price_{0}", Model.Id);
-                                                @Html.Partial("_ProductPrice", Model.ProductPrice, dataDictPrice)
+                                                    @{
+                                                        var dataDictPrice = new ViewDataDictionary();
+                                                        dataDictPrice.TemplateInfo.HtmlFieldPrefix = string.Format("price_{0}", Model.Id);
+                                                        @Html.Partial("_ProductPrice", Model.ProductPrice, dataDictPrice)
+                                                        @Html.Partial("_ProductTierPrices", Model.TierPrices)
+                                                    }
 
-                                                @Html.Partial("_ProductTierPrices", Model.TierPrices)
-                                            }
+
                                             <div class="line1 qtyline">
                                                 <div class="qty">Quantity:&nbsp;</div>	<div class="al4"> </div>
                                                 @{
