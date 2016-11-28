@@ -106,22 +106,11 @@
                                                     }
 
 
-                                            <div class="line1 qtyline">
-                                                <div class="qty">Quantity:&nbsp;</div>	<div class="al4"> </div>
                                                 @{
                                                     var dataDictAddToCart = new ViewDataDictionary();
                                                     dataDictAddToCart.TemplateInfo.HtmlFieldPrefix = string.Format("addtocart_{0}", Model.Id);
                                                     @Html.Partial("_AddToCart", Model.AddToCart, dataDictAddToCart)
                                                 }
-                                            </div>
-
-
-
-                                            <div class="line1"><div class="qty1">ITEM TOTAL:&nbsp;</div><div class="al4"><span class="pricetxt tex1"></span></div><br clear="all"></div>
-
-                                            <div class="bt"><input type="image" src="http://site.1-800-porcelain.com/i1/add2.gif" width="144" height="24" alt="Order Now" border="0"><br></div>
-
-
                                         </div>
                                     </div>
 
@@ -132,6 +121,8 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="but1"><div class="but2"><div class="but3"> <img src="http://site.1-800-porcelain.com/i1/t-p.gif" width="204" height="24">
+                        <script language="javascript">itemzip="11101";itemweight='1'; itemcity='Long Island City';</script><a href="javascript:void(0)" onclick="quant=document.multiorder.vwquantity0.value;ShippingCostEstimator();return true" onmouseover="status='Shipping cost estimator';return true" onmouseout="status='';return true"><img src="http://site.1-800-porcelain.com/i1/but-ship.gif" width="204" height="24" alt="Shipping cost estimator" border="0"></a><a href="javascript:print()"><img src="http://site.1-800-porcelain.com/i1/but-print.gif" alt="Print this page" width="204" height="24"></a><a href="javascript:void(0)" onclick="javascript:window.open('/lib/lomonosov-porcelain/deliverydates.html','','top=20,left=20,height=500,width=790,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes')" onmouseover="window.status='When will my order arrive?';return true" onmouseout="window.status=''"><img src="http://site.1-800-porcelain.com/i1/but-when.gif" width="204" height="24" border="0" alt="When will my order arrive?"></a></div></div></div>
                         <!--product reviews-->
                         @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
                         <!--manufacturers-->

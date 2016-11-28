@@ -2241,13 +2241,11 @@ label, label + * {
 
 .overview .prices,
 .variant-overview .prices {
-    margin: 0 0 10px;
     overflow: hidden;
 }
 
     .overview .prices > div,
     .variant-overview .prices > div {
-        margin: 0 0 5px;
     }
 
         .overview .prices > div > span,
@@ -2333,7 +2331,7 @@ label, label + * {
 
 .overview .add-to-cart-panel,
 .variant-overview .add-to-cart-panel {
-    display: inline-block;
+    /*display: inline-block;*/
     position: relative;
 }
 
@@ -2344,17 +2342,12 @@ label, label + * {
 
 .overview .qty-label,
 .variant-overview .qty-label {
-    display: none !important;
+    /*display: none !important;*/
 }
 
 .overview .qty-input,
 .variant-overview .qty-input {
-    width: 45px;
-    height: 43px;
-    padding: 0 12px;
-    text-align: center;
-    font-size: 15px;
-    color: #444;
+
 }
 
 .overview .add-to-cart-button,
