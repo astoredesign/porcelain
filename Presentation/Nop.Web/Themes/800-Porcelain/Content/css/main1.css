@@ -1426,11 +1426,11 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
 }
 
 .but2 {
-    background: url(http://site.1-800-porcelain.com/i1/but1.gif) no-repeat;
+    background: url(../i1/but1.gif) no-repeat;
 }
 
 .but3 {
-    background: url(http://site.1-800-porcelain.com/i1/but2.gif) no-repeat bottom left;
+    background: url(../i1/but2.gif) no-repeat bottom left;
     ;
     padding: 4px 5px 3px 5px;
     text-align: center;
@@ -1439,6 +1439,21 @@ a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
     .but3 img {
         margin: 1px 5px;
     }
+
+.item-but {
+    width: 204px;
+    height: 24px;
+    display:inline-block;
+    line-height:24px;
+    color:#333;
+    text-align: center;
+    font-size:12px;
+    text-shadow: 1px 1px #ddd;
+    font-weight:bold;
+    background: url(../i1/but.gif) no-repeat;
+    margin:0 0 5px 5px;
+
+}
 
 .mlOut {
     padding: 7px 0 7px 0;
