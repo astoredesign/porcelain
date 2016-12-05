@@ -71,12 +71,12 @@
                     @Html.Widget("productdetails_after_pictures", Model.Id)
                     <div class="overview">
                         @Html.Partial("_Discontinued", Model)
-                        @if (!String.IsNullOrEmpty(Model.ShortDescription))
+                        @*@if (!String.IsNullOrEmpty(Model.ShortDescription))
                         {
                             <div class="short-description">
                                 @Html.Raw(Model.ShortDescription)
                             </div>
-                        }
+                        }*@
                         @Html.Widget("productdetails_overview_top", Model.Id)
                         <div class="iord1">
                             <div class="iord2">
@@ -126,7 +126,8 @@
                             <a href="javascript:void(0)" class="item-but" onclick="quant=document.multiorder.vwquantity0.value;ShippingCostEstimator();return true" onmouseover="status='Shipping cost estimator';return true" onmouseout="status='';return true">Shipping cost estimator</a>
                             <a href="javascript:print()" class="item-but">Print this page</a>
                             <a href="javascript:void(0)" class="item-but" onclick="javascript:window.open('/lib/lomonosov-porcelain/deliverydates.html','','top=20,left=20,height=500,width=790,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes')" onmouseover="window.status='When will my order arrive?';return true" onmouseout="window.status=''">When will my order arrive?</a></div></div></div>
-                        <!--product reviews-->
+                       <br>
+                         <!--product reviews-->
                         @Html.Partial("_ProductReviewOverview", Model.ProductReviewOverview)
                         <!--manufacturers-->
                         @*@Html.Partial("_ProductManufacturers", Model.ProductManufacturers)*@

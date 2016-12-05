@@ -48,7 +48,7 @@ function calcq(num) {
 function calcoptions() {
     var optval = 0;
     len = eval("optionvalue0" + ".length");
-    for (j = 1; j < len; j++) {
+    for (j = 0; j < len; j++) {
         optcheck = eval("optionvalue0" + "[" + j + "]");
         optval = (optcheck) ? optcheck : optval;
     }
@@ -74,7 +74,7 @@ function chprice(pr, num) {
 
 
 $(document).ready(function () {
-    var retailPrice = $(".pr1.old-product-price").attr("content").substring(1) * 1;
+    var retailPrice = ($(".pr1.old-product-price").attr("content")) ? $(".pr1.old-product-price").attr("content").substring(1) * 1 : 0;
     var productPrice = $(".pr2.price-value").attr("content") * 1;
     var savings = (100 * (retailPrice - productPrice) / retailPrice).toFixed(0);
     $(".pr2.saving").html("-" + savings + "%");
